@@ -1,0 +1,31 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Normal\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add --exact react react-dom react-scripts --cwd D:\Other\Project\IntelliJ\web_shopping\shopping_front
+
+PATH: 
+  D:\Program Files\Python27\;D:\Program Files\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;D:\Program Files\MariaDB 10.3\bin;D:\Program Files\Python27;C:\ProgramData\chocolatey\bin;C:\Python27;C:\Program Files\nodejs\;D:\DevelopmentKit\Sdk\tools;D:\DevelopmentKit\Sdk\platform-tools;D:\Program Files\cocos2d-x-3.17.1\templates;D:\Program Files\cocos2d-x-3.17.1\tools\cocos2d-console\bin;C:\Users\Normal\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;;D:\Program Files\Microsoft VS Code\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Normal\AppData\Roaming\npm
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.15.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.21.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+
+npm manifest: 
+  {
+    "name": "shopping_front",
+    "version": "0.1.0",
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
