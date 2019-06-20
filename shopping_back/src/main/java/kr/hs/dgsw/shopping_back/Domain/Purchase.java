@@ -1,14 +1,18 @@
 package kr.hs.dgsw.shopping_back.Domain;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
+import org.hibernate.annotations.CreationTimestamp;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import java.time.LocalDateTime;
 
 @Entity
 @Data
+@NoArgsConstructor
 public class Purchase {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -17,5 +21,6 @@ public class Purchase {
     private String user_id;
     private int count;
     private String state;
-    // cre
+    @CreationTimestamp
+    private LocalDateTime created;
 }
