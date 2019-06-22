@@ -24,7 +24,12 @@ public class UserController {
         return userService.selectUser(id);
     }
 
-    @PostMapping("/inset")
+    @PostMapping("/login")
+    public User loginUser(@RequestBody User user) {
+        return userService.loginUser(user);
+    }
+
+    @PostMapping("/insert")
     public User selectUser(@RequestBody User user) {
         return userService.insetUser(user);
     }

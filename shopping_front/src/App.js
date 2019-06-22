@@ -5,10 +5,13 @@ import {Provider} from "mobx-react";
 import Home from './Home';
 import './App.scss';
 import Join from "./Join";
+import Login from "./Login";
+
+import Stores from './Stores';
 
 function App() {
     return (
-        <Provider>
+        <Provider stores={Stores}>
             <BrowserRouter>
                 <header className='app-header'>
                     <ul className='menubar'>
@@ -19,6 +22,7 @@ function App() {
                 <section className='app-body'>
                     <Route path='/' exact component={Home}/>
                     <Route path='/join' component={Join}/>
+                    <Route path='/login' component={Login}/>
                 </section>
             </BrowserRouter>
         </Provider>

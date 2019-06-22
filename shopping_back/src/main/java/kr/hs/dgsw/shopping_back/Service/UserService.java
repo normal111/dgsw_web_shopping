@@ -9,6 +9,8 @@ public interface UserService {
 
     User selectUser(String id);
 
+    User loginUser(User user);
+
     User insetUser(User user);
 
     User updateUser(User user);

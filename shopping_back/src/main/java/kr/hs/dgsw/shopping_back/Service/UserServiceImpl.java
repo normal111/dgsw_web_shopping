@@ -24,6 +24,11 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
+    public User loginUser(User user) {
+        return userRepository.findByIdAndPassword(user.getId(), user.getPassword()).orElse(null);
+    }
+
+    @Override
     public User insetUser(User user) {
         return userRepository.save(user);
     }
@@ -46,12 +51,12 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public boolean deleteUser(String id) {
-        try{
+        try {
             userRepository.deleteById(id);
             return true;
-        }
-        catch (Exception e){
+        } catch (Exception e) {
             return false;
         }
     }
+
 }

@@ -1,0 +1,110 @@
+POST http://localhost:8080/api/user/login
+Content-Type: application/json
+
+{
+  "id": "user123",
+  "password": "1234"
+}
+
+<> 2019-06-22T064351.200.json
+
+###
+
+POST http://localhost:8080/api/user/login
+Content-Type: application/json
+
+{
+  "id": "user123",
+  "password": "1234"
+}
+
+<> 2019-06-22T064222.200.json
+
+###
+
+POST http://localhost:8080/api/user/insert
+Content-Type: application/json
+
+{
+  "id": "user123",
+  "password": "1234",
+  "name": "username 123"
+}
+
+<> 2019-06-22T064220.200.json
+
+###
+
+POST http://localhost:8080/api/user/insert
+Content-Type: application/json
+
+{
+  "id": "user123",
+  "password": "1234",
+  "name": "username 123"
+}
+
+<> 2019-06-22T054506.200.json
+
+###
+
+GET http://localhost:8080/api/user/select
+Accept: application/json
+
+<> 2019-06-22T034347.200.json
+
+###
+
+GET http://localhost:8080/api/user/getAll
+Accept: application/json
+
+<> 2019-06-22T034336.404.json
+
+###
+
+GET http://localhost:8080/user/getAll
+Accept: application/json
+
+<> 2019-06-22T034327.404.json
+
+###
+
+POST http://localhost:8080/api/user/insert
+Content-Type: application/json
+
+{
+  "id": "user123",
+  "password": "1234",
+  "name": "username 123"
+}
+
+<> 2019-06-22T034322.200.json
+
+###
+
+POST http://localhost:8080/api/user/insert
+Content-Type: application/json
+
+{
+  "id": "user123",
+  "password": "1234",
+  "name": "username 123"
+}
+
+<> 2019-06-21T122755.200.json
+
+###
+
+POST http://localhost:8080/api/user/insert
+Content-Type: application/json
+
+{
+  "id": "user123",
+  "password": "1234",
+  "name": "username 123",
+}
+
+<> 2019-06-21T122735.400.json
+
+###
+
