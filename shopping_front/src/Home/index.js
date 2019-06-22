@@ -18,6 +18,7 @@ class Home extends Component {
         } else {
             return (
                 <div>
+                    <div>{this.props.stores.UserStore.current_user.name}님 환영합니다</div>
                     <button onClick={this.logout}>로그아웃</button>
                 </div>
             );

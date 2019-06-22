@@ -46,7 +46,10 @@ class UserStore {
                 timeout: 3000,
                 data: JSON.stringify(user)
             });
-            this.current_user = JSON.stringify(response);
+            if(response.data === ""){
+                return false;
+            }
+            this.current_user = response.data;
             return (response.status === 200)
         } catch (ex) {
             return false;
