@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b7ed35a-fb26-45ab-9a98-bf8e2d601572" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-06-24T044036.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-24T044036.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_back/UserAPITest.http" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_back/UserAPITest.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_front/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_front/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_front/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shopping_front/src/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_front/src/Home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping_front/src/Stores/UserStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_front/src/Stores/UserStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_front/src/Stores/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_front/src/Stores/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/shopping_back/.gradle/" />
     <ignored path="$PROJECT_DIR$/shopping_back/build/" />
@@ -69,34 +74,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shopping_front/src/Stores/index.js">
+        <entry file="file://$PROJECT_DIR$/shopping_front/src/Home/Home.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            <state relative-caret-position="506">
+              <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shopping_front/src/Home/index.js">
+        <entry file="file://$PROJECT_DIR$/shopping_front/src/Home/Category.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="21" column="63" lean-forward="true" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="506">
+              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopping_front/src/Product/index.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/shopping_front/src/Stores/UserStore.js">
+        <entry file="file://$PROJECT_DIR$/shopping_back/UserAPITest.http">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="356">
+              <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -109,6 +113,7 @@
         <option value="Interface" />
         <option value="Class" />
         <option value="HTTP Request" />
+        <option value="SCSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -117,10 +122,11 @@
     <findStrings>
       <find>User</find>
       <find>userRepository</find>
-      <find>user</find>
       <find>cart</find>
       <find>product</find>
       <find>Cart</find>
+      <find>String</find>
+      <find>user</find>
     </findStrings>
     <replaceStrings>
       <replace>Cart</replace>
@@ -131,6 +137,8 @@
       <replace>comment</replace>
       <replace>Purchase</replace>
       <replace>Category</replace>
+      <replace>category</replace>
+      <replace>Long</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -139,7 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/dgsw/dgsw/shopping_back/Repository/CommentRepository.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b7c5aa15-dd0e-458a-93cc-5d99fa855465/console.sql" />
         <option value="$PROJECT_DIR$/shopping_back/build.gradle" />
         <option value="$PROJECT_DIR$/shopping_back/src/main/resources/application.properties" />
@@ -164,30 +171,41 @@
         <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/PurchaseServiceImpl.java" />
         <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/CategoryService.java" />
         <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/CategoryServiceImpl.java" />
-        <option value="$PROJECT_DIR$/shopping_front/src/App.scss" />
         <option value="$PROJECT_DIR$/shopping_front/src/index.js" />
         <option value="$PROJECT_DIR$/shopping_front/src/config-overrides.js" />
         <option value="$PROJECT_DIR$/shopping_front/config-overrides.js" />
         <option value="$PROJECT_DIR$/shopping_front/package.json" />
-        <option value="$PROJECT_DIR$/shopping_front/src/Stores/index.js" />
         <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Configuration/CORS.java" />
         <option value="$PROJECT_DIR$/shopping_front/src/Join/index.js" />
         <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Controller/UserController.java" />
         <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/UserService.java" />
         <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/shopping_front/src/App.js" />
         <option value="$PROJECT_DIR$/shopping_front/src/Login/index.js" />
-        <option value="$PROJECT_DIR$/shopping_back/UserAPITest.http" />
-        <option value="$PROJECT_DIR$/shopping_front/src/Home/index.js" />
         <option value="$PROJECT_DIR$/shopping_front/src/Stores/UserStore.js" />
+        <option value="$PROJECT_DIR$/shopping_front/src/Stores/index.js" />
+        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Controller/CategoryController.java" />
+        <option value="$PROJECT_DIR$/shopping_front/src/Stores/CategoryStore.js" />
+        <option value="$PROJECT_DIR$/shopping_front/src/App.js" />
+        <option value="$PROJECT_DIR$/shopping_front/src/Products/index.js" />
+        <option value="$PROJECT_DIR$/shopping_front/src/Home/index.js" />
+        <option value="$PROJECT_DIR$/shopping_front/src/Menu/index.js" />
+        <option value="$PROJECT_DIR$/shopping_front/src/Home/Category.js" />
+        <option value="$PROJECT_DIR$/shopping_front/src/Menu/Menu.scss" />
+        <option value="$PROJECT_DIR$/shopping_front/src/App.scss" />
+        <option value="$PROJECT_DIR$/shopping_front/src/Home/Home.scss" />
+        <option value="$PROJECT_DIR$/shopping_front/src/Home/Category.scss" />
+        <option value="$PROJECT_DIR$/shopping_front/src/Product/rcc.js" />
+        <option value="$PROJECT_DIR$/shopping_front/src/Product/index.js" />
+        <option value="$PROJECT_DIR$/shopping_back/UserAPITest.http" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -197,12 +215,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="web_shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping_back" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_shopping" type="b2602c69:ProjectViewProjectNode" />
               <item name="shopping_front" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -214,31 +235,14 @@
               <item name="web_shopping" type="b2602c69:ProjectViewProjectNode" />
               <item name="shopping_front" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_shopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopping_front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Join" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_shopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopping_front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_shopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopping_front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Stores" type="462c0819:PsiDirectoryNode" />
+              <item name="Products" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -249,10 +253,11 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561197177120" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561357548729" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web_react_02" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -264,22 +269,88 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.osgi.project.settings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Other\Project\IntelliJ\web_shopping\shopping_front" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Other\Project\IntelliJ\web_shopping\shopping_front\src\Home" />
+      <recent name="D:\Other\Project\IntelliJ\web_shopping\shopping_front\src\Menu" />
+      <recent name="D:\Other\Project\IntelliJ\web_shopping\shopping_front\src\Stores" />
       <recent name="D:\Other\Project\IntelliJ\web_shopping\shopping_front\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="kr.hs.dgsw.shopping_back.Controller" />
       <recent name="kr.hs.dgsw.shopping_back.Configuration" />
       <recent name="kr.hs.dgsw.shopping_back.Service" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Other\Project\IntelliJ\web_shopping\shopping_front\src\Stores" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Other\Project\IntelliJ\web_shopping\shopping_front" />
       <recent name="D:\Other\Project\IntelliJ\web_shopping\shopping_front\src" />
     </key>
   </component>
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/api/category/insert" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;name&quot;: &quot;현동&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/api/category/insert" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;name&quot;: &quot;가방&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/api/category/select" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/api/category/insert" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;name&quot;: &quot;청바지&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="POST" />
           <option name="urlBase" value="http://localhost:8080/api/user/login" />
@@ -404,14 +475,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.start">
-    <configuration name="UserAPITest#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/shopping_back/UserAPITest.http">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="HTTP Request.UserAPITest#5">
     <configuration name="UserAPITest#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/shopping_back/UserAPITest.http" index="2">
       <method v="2" />
     </configuration>
     <configuration name="UserAPITest#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/shopping_back/UserAPITest.http" index="3">
+      <method v="2" />
+    </configuration>
+    <configuration name="UserAPITest#4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/shopping_back/UserAPITest.http" index="4">
+      <method v="2" />
+    </configuration>
+    <configuration name="UserAPITest#5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/shopping_back/UserAPITest.http" index="5">
       <method v="2" />
     </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -436,10 +510,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.UserAPITest#5" />
         <item itemvalue="npm.start" />
+        <item itemvalue="HTTP Request.UserAPITest#4" />
         <item itemvalue="HTTP Request.UserAPITest#3" />
         <item itemvalue="HTTP Request.UserAPITest#2" />
-        <item itemvalue="HTTP Request.UserAPITest#1" />
       </list>
     </recent_temporary>
   </component>
@@ -458,12 +533,14 @@
       <workItem from="1561073234609" duration="90000" />
       <workItem from="1561081496130" duration="5018000" />
       <workItem from="1561185059252" duration="8232000" />
-      <workItem from="1561197836244" duration="2575000" />
+      <workItem from="1561197836244" duration="2631000" />
+      <workItem from="1561336932180" duration="599000" />
+      <workItem from="1561340837416" duration="13970000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27045000" />
+    <option name="totallyTimeSpent" value="41670000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -478,7 +555,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1913646" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.195629" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -489,7 +566,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37093276" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37093276" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -521,62 +598,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shopping_back/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b7c5aa15-dd0e-458a-93cc-5d99fa855465/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="81" lean-forward="true" selection-start-line="7" selection-start-column="81" selection-end-line="7" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.1.5.RELEASE/95789d4de06a4c37eebb1f6ce7bc7290951d60c7/spring-boot-autoconfigure-2.1.5.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="136" column="50" selection-start-line="136" selection-start-column="50" selection-end-line="136" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Repository/PurchaseRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Repository/ProductRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Repository/CommentRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Repository/CategoryRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Repository/CartRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -752,24 +773,7 @@
         <state relative-caret-position="-3168" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_front/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shopping_front/src/App.css" />
-    <entry file="file://$PROJECT_DIR$/shopping_front/src/App.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_front/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shopping_front/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -825,16 +829,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_front/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://b7c5aa15-dd0e-458a-93cc-5d99fa855465/schema/web_shopping/table/user">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -852,13 +846,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_back/UserAPITest.http">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shopping_front/src/Login/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
@@ -871,38 +858,154 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shopping_front/src/Join/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="40" column="77" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="77" />
+        <state relative-caret-position="-572">
+          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="9" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Controller/CategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#800#801#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
+            <element signature="e#1022#1023#0" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
+            <element signature="e#1336#1337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_front/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shopping_front/src/Stores/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        <state relative-caret-position="198">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_front/src/Home/index.js">
+    <entry file="file://$PROJECT_DIR$/shopping_front/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="21" column="63" lean-forward="true" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
+        <state relative-caret-position="44">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_front/src/Stores/CategoryStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_front/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shopping_front/src/Stores/UserStore.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+        <state relative-caret-position="652">
+          <caret line="59" column="33" lean-forward="true" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_front/src/Menu/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="44" lean-forward="true" selection-start-line="2" selection-start-column="44" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_front/src/Menu/Menu.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_front/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_front/src/Home/Category.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_front/src/Home/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_front/src/App.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_front/src/Home/Home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_front/src/Products/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_front/src/Product/rcc.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_front/src/Home/Category.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_front/src/Product/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_back/UserAPITest.http">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
         </state>
       </provider>
     </entry>

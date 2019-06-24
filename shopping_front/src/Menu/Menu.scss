@@ -1,0 +1,16 @@
+.menu-bar {
+  height: 20px;
+  margin: 0;
+}
+
+.menu-item {
+  list-style-type: none;
+  display: inline; /* 세로나열을 가로나열로 변경 */
+  border-left: 1px solid #999; /* 각 메뉴의 왼쪽에 "|" 표시(분류 표시) */
+  font: bold 12px Dotum; /* 폰트 설정 - 12px의 돋움체 굵은 글씨로 표시 */
+  padding: 0 10px; /* 각 메뉴 간격 */
+}
+
+.menu-item:first-child {
+  border-left: none;
+}

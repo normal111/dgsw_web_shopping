@@ -1,0 +1,25 @@
+.category-bar {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  left: 0;
+  height: 40px;
+  margin: 0;
+  background: skyblue;
+}
+
+.category-item {
+  list-style-type: none;
+  display: inline; /* 세로나열을 가로나열로 변경 */
+  padding: 0 8px; /* 각 메뉴 간격 */
+}
+
+.category-item a {
+  color: #000;
+  font-size: 29px;
+  text-decoration: none;
+}
+
+.category-item a:hover {
+  background-color: deepskyblue;
+}

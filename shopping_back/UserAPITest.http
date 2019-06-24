@@ -30,3 +30,19 @@ Content-Type: application/json
 }
 
 ###
+
+GET http://localhost:8080/api/category/select
+Accept: application/json
+
+###
+
+###
+
+POST http://localhost:8080/api/category/insert
+Content-Type: application/json
+
+{
+  "name": "현동"
+}
+
+###
