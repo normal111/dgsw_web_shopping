@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-06-26T11:29:23.981+0000",
+  "status": 404,
+  "error": "Not Found",
+  "message": "No message available",
+  "path": "/api/cart/get/1"
+}

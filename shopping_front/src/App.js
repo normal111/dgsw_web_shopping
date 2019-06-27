@@ -6,7 +6,10 @@ import Menu from './Menu';
 import Home from './Home';
 import './App.scss';
 import Join from "./Join";
-import Products from "./Products";
+import Cart from "./Cart";
+import Product from "./Product";
+import CategoryBar from "./Category/CategoryBar";
+import Category from "./Category";
 import Login from "./Login";
 
 import Stores from './Stores';
@@ -16,14 +19,17 @@ function App() {
         <Provider stores={Stores}>
             <BrowserRouter>
                 <header className='app-header'>
-                    <Menu/>
+                    <Menu chilName='menu'/>
+                    <CategoryBar/>
                 </header>
 
                 <section className='app-body'>
                     <Route path='/' exact component={Home}/>
                     <Route path='/login' component={Login}/>
                     <Route path='/join' component={Join}/>
-                    <Route path='/category/:id' component={Products}/>
+                    <Route path='/cart' component={Cart}/>
+                    <Route path='/category/:category_id?' component={Category}/>
+                    <Route path='/product/:product_id?' component={Product}/>
                 </section>
             </BrowserRouter>
         </Provider>

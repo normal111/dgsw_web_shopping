@@ -9,6 +9,8 @@ public interface CartService {
 
     Cart selectCart(Long id);
 
+    List<Cart> getCart(String user_id);
+
     Cart insetCart(Cart cart);
 
     Cart updateCart(Cart cart);

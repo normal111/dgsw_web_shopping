@@ -1,3 +1,17 @@
+GET http://localhost:8080/api/cart/get/1
+Accept: application/json
+
+<> 2019-06-26T082924.404.json
+
+###
+
+GET http://localhost:8080/api/product/select/1
+Accept: application/json
+
+<> 2019-06-25T112109.200.json
+
+###
+
 POST http://localhost:8080/api/category/insert
 Content-Type: application/json
 

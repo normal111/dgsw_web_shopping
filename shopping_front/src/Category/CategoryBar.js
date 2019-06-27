@@ -2,11 +2,11 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import {inject, observer} from "mobx-react";
 
-import './Category.scss';
+import './CategoryBar.scss';
 
 @inject('stores')
 @observer
-class Category extends Component {
+class CategoryBar extends Component {
     state = {
         category: []
     };
@@ -15,7 +15,7 @@ class Category extends Component {
         await this.props.stores.CategoryStore.getCategory();
         this.setState({
             category: this.props.stores.CategoryStore.current_category
-        })
+        });
     }
 
     render() {
@@ -35,4 +35,4 @@ class Category extends Component {
     }
 }
 
-export default Category;
+export default CategoryBar;

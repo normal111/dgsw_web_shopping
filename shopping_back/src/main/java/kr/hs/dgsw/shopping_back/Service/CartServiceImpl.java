@@ -5,6 +5,7 @@ import kr.hs.dgsw.shopping_back.Repository.CartRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -21,6 +22,16 @@ public class CartServiceImpl implements CartService {
     @Override
     public Cart selectCart(Long id) {
         return cartRepository.findById(id).orElse(null);
+    }
+
+    @Override
+    public List<Cart> getCart(String user_id) {
+        List<Cart> carts = new ArrayList<>();
+        for (Cart cart : selectCart()) {
+            if (cart.getUser_id().equals(user_id))
+                carts.add(cart);
+        }
+        return carts;
     }
 
     @Override

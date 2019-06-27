@@ -23,4 +23,15 @@ public class User {
     private String email;
     @CreationTimestamp
     private LocalDateTime created;
+
+    public User(String id, String password, String name, String phone, String mobile, String postal_code, String address, String email) {
+        this.id = id;
+        this.password = password;
+        this.name = name;
+        this.phone = phone;
+        this.mobile = mobile;
+        this.postal_code = postal_code;
+        this.address = address;
+        this.email = email;
+    }
 }

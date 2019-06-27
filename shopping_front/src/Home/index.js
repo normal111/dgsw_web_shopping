@@ -1,24 +1,39 @@
 import React, {Component} from 'react';
-import Category from "./Category";
+import SimpleProduct from "../Product/SimpleProduct";
 
 import './Home.scss';
 
 class Home extends Component {
-
     render() {
         return (
             <div>
-                <Category/>
+                <div className='home-main'>
+                    메인 베너
+                </div>
+
                 <div className='home-left-aside'>
-                    qwe
+                    <SimpleProduct product_id={1}/>
+                    <SimpleProduct product_id={1}/>
+                    <SimpleProduct product_id={1}/>
+                    <SimpleProduct product_id={1}/>
                 </div>
 
                 <div className='home-section'>
-                    qwe
+                    <SimpleProduct product_id={1}/>
+                    <SimpleProduct product_id={1}/>
+                    <SimpleProduct product_id={1}/>
+                    <SimpleProduct product_id={1}/>
+                    <SimpleProduct product_id={1}/>
+                    <SimpleProduct product_id={1}/>
                 </div>
 
                 <div className='home-right-aside'>
-                    qwe
+                    <SimpleProduct product_id={1}/>
+                    <SimpleProduct product_id={1}/>
+                    <SimpleProduct product_id={1}/>
+                    <SimpleProduct product_id={1}/>
+                    <SimpleProduct product_id={1}/>
+                    <SimpleProduct product_id={1}/>
                 </div>
             </div>
         );

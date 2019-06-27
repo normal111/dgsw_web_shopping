@@ -46,3 +46,15 @@ Content-Type: application/json
 }
 
 ###
+
+GET http://localhost:8080/api/product/select/1
+Accept: application/json
+
+###
+
+###
+
+GET http://localhost:8080/api/cart/get/1
+Accept: application/json
+
+###

@@ -1,0 +1,11 @@
+$menu-bar-height: 10vh;
+
+.cart-container {
+  position: absolute;
+  top: $menu-bar-height;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: lightgreen;
+  text-align: center;
+}

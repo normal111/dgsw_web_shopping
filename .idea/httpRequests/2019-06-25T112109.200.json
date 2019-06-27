@@ -1,0 +1,14 @@
+{
+  "id": 1,
+  "name": "고급가방",
+  "price": 1000,
+  "image": "qwe/qwe",
+  "company": "대소고",
+  "category_id": 6,
+  "sub_category": "크로스백",
+  "mileage": 10,
+  "content": "고오오오오급 가압입니다",
+  "detail": "고오오오오급 가압입니다",
+  "pur_info": "구매정보",
+  "created": "2019-06-25T11:14:38"
+}

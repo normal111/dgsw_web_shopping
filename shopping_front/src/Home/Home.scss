@@ -1,26 +1,43 @@
+$home-height: 30vh;
+$left-aside-width: 25vw;
+$right-aside-width: 25vw;
+
+.home-main {
+  position: absolute;
+  top: 10vh;
+  height: 20vh;
+  left: 0;
+  right: 0;
+  background-color: lightyellow;
+}
+
 .home-left-aside {
   position: absolute;
-  top: 60px;
+  top: $home-height;
   bottom: 0;
   left: 0;
-  width: 25%;
+  width: $left-aside-width;
   background-color: mistyrose;
+  overflow: auto;
+
 }
 
 .home-right-aside {
   position: absolute;
-  top: 60px;
+  top: $home-height;
   bottom: 0;
   right: 0;
-  width: 25%;
+  width: $right-aside-width;
   background-color: pink;
+  overflow: auto;
 }
 
-.home-section{
+.home-section {
   position: absolute;
-  top: 60px;
+  top: $home-height;
   bottom: 0;
-  left: 25%;
-  right: 25%;
+  left: $left-aside-width;
+  right: $right-aside-width;
   background-color: lightgreen;
+  overflow: auto;
 }

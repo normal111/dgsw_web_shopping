@@ -20,7 +20,8 @@ class Menu extends Component {
             return (
                 <ul className='menu-bar'>
                     <li className='menu-item' ><Link to="/">Home</Link></li>
-                    <li className='menu-item' ><Link onClick={this.logout}>로그아웃</Link></li>
+                    <li className='menu-item' ><Link to="/cart">장바구니</Link></li>
+                    <li className='menu-item' ><span onClick={this.logout}>로그아웃</span></li>
                 </ul>
             );
         }

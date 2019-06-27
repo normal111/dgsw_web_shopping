@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import {inject, observer} from "mobx-react";
 import {Redirect} from 'react-router-dom';
 
+import './Login.scss'
+
 @inject('stores')
 @observer
 class Login extends Component {
@@ -17,7 +19,7 @@ class Login extends Component {
             return <Redirect to='/'/>;
 
         return (
-            <div>
+            <div className='login-container'>
                 <input id="id" type="text" placeholder="id" onChange={this.updateId}/><br/>
                 <input id="password" type="password" placeholder="password" onChange={this.updatePassword}/><br/>
                 <button onClick={this.login}>로그인</button>

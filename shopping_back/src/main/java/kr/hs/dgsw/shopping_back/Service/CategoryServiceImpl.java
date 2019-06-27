@@ -25,7 +25,11 @@ public class CategoryServiceImpl implements CategoryService {
 
     @Override
     public Category insetCategory(Category category) {
-        return categoryRepository.save(category);
+        try {
+            return categoryRepository.save(category);
+        } catch (Exception e) {
+            return null;
+        }
     }
 
     @Override

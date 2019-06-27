@@ -29,4 +29,17 @@ public class Product {
     private String pur_info;
     @CreationTimestamp
     private LocalDateTime created;
+
+    public Product(String name, int price, String image, String company, Long category_id, String sub_category, int mileage, String content, String detail, String pur_info) {
+        this.name = name;
+        this.price = price;
+        this.image = image;
+        this.company = company;
+        this.category_id = category_id;
+        this.sub_category = sub_category;
+        this.mileage = mileage;
+        this.content = content;
+        this.detail = detail;
+        this.pur_info = pur_info;
+    }
 }

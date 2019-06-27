@@ -2,13 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b7ed35a-fb26-45ab-9a98-bf8e2d601572" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-06-24T044036.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-24T044036.200.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping_front/src/Product/SimpleProduct.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shopping_back/UserAPITest.http" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_back/UserAPITest.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Domain/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Domain/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Domain/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Repository/CartRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Repository/CartRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Repository/CategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/CartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/CartService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/CartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/CartServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shopping_front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_front/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shopping_front/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_front/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_front/src/Home/Category.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_front/src/Home/Category.scss" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_front/src/Category/CategoryBar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_front/src/Home/Home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_front/src/Home/Home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shopping_front/src/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_front/src/Home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_front/src/Login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_front/src/Login/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_front/src/Menu/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_front/src/Menu/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_front/src/Product/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping_front/src/Products/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_front/src/Category/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shopping_front/src/Stores/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/shopping_front/src/Stores/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/shopping_back/.gradle/" />
@@ -73,34 +89,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shopping_front/src/Home/Home.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shopping_front/src/Home/Category.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shopping_front/src/Product/index.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/shopping_back/UserAPITest.http">
+        <entry file="file://$PROJECT_DIR$/shopping_front/src/Category/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+            <state relative-caret-position="88">
+              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopping_front/src/Product/SimpleProduct.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="7" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,22 +131,23 @@
       <find>User</find>
       <find>userRepository</find>
       <find>cart</find>
-      <find>product</find>
       <find>Cart</find>
       <find>String</find>
       <find>user</find>
+      <find>category</find>
+      <find>product</find>
     </findStrings>
     <replaceStrings>
       <replace>Cart</replace>
       <replace>cartRepository</replace>
-      <replace>cart</replace>
-      <replace>Product</replace>
       <replace>product</replace>
       <replace>comment</replace>
       <replace>Purchase</replace>
       <replace>Category</replace>
       <replace>category</replace>
       <replace>Long</replace>
+      <replace>Product</replace>
+      <replace>cart</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -147,65 +156,64 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b7c5aa15-dd0e-458a-93cc-5d99fa855465/console.sql" />
-        <option value="$PROJECT_DIR$/shopping_back/build.gradle" />
-        <option value="$PROJECT_DIR$/shopping_back/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Domain/Category.java" />
-        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Repository/PurchaseRepository.java" />
-        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Repository/ProductRepository.java" />
-        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Repository/CommentRepository.java" />
-        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Repository/CategoryRepository.java" />
-        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Repository/CartRepository.java" />
-        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Domain/User.java" />
-        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Domain/Purchase.java" />
-        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Domain/Product.java" />
-        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Domain/Comment.java" />
-        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Domain/Cart.java" />
-        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/CartService.java" />
-        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/ProductService.java" />
-        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/ProductServiceImpl.java" />
-        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/CartServiceImpl.java" />
-        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/CommentService.java" />
-        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/CommentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/PurchaseService.java" />
-        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/PurchaseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/CategoryService.java" />
-        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/CategoryServiceImpl.java" />
-        <option value="$PROJECT_DIR$/shopping_front/src/index.js" />
-        <option value="$PROJECT_DIR$/shopping_front/src/config-overrides.js" />
-        <option value="$PROJECT_DIR$/shopping_front/config-overrides.js" />
         <option value="$PROJECT_DIR$/shopping_front/package.json" />
         <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Configuration/CORS.java" />
         <option value="$PROJECT_DIR$/shopping_front/src/Join/index.js" />
         <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Controller/UserController.java" />
         <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/UserService.java" />
         <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/shopping_front/src/Login/index.js" />
         <option value="$PROJECT_DIR$/shopping_front/src/Stores/UserStore.js" />
-        <option value="$PROJECT_DIR$/shopping_front/src/Stores/index.js" />
         <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Controller/CategoryController.java" />
         <option value="$PROJECT_DIR$/shopping_front/src/Stores/CategoryStore.js" />
-        <option value="$PROJECT_DIR$/shopping_front/src/App.js" />
         <option value="$PROJECT_DIR$/shopping_front/src/Products/index.js" />
-        <option value="$PROJECT_DIR$/shopping_front/src/Home/index.js" />
-        <option value="$PROJECT_DIR$/shopping_front/src/Menu/index.js" />
-        <option value="$PROJECT_DIR$/shopping_front/src/Home/Category.js" />
         <option value="$PROJECT_DIR$/shopping_front/src/Menu/Menu.scss" />
-        <option value="$PROJECT_DIR$/shopping_front/src/App.scss" />
-        <option value="$PROJECT_DIR$/shopping_front/src/Home/Home.scss" />
-        <option value="$PROJECT_DIR$/shopping_front/src/Home/Category.scss" />
         <option value="$PROJECT_DIR$/shopping_front/src/Product/rcc.js" />
+        <option value="$PROJECT_DIR$/shopping_back/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Domain/User.java" />
+        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Domain/Product.java" />
+        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Domain/Category.java" />
+        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Repository/CategoryRepository.java" />
+        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/CategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Protocol/CommentUserNameProtocol.java" />
+        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Controller/AttachmentController.java" />
+        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/AttachmentService.java" />
+        <option value="$PROJECT_DIR$/shopping_front/src/Home/Category.scss" />
+        <option value="$PROJECT_DIR$/shopping_front/src/Home/Home.scss" />
+        <option value="$PROJECT_DIR$/shopping_front/src/Home/Category.js" />
+        <option value="$PROJECT_DIR$/shopping_front/src/Category/CategoryItem.js" />
+        <option value="$PROJECT_DIR$/shopping_front/src/App.scss" />
+        <option value="$PROJECT_DIR$/shopping_front/src/Category/CategoryBar.scss" />
+        <option value="$PROJECT_DIR$/shopping_front/src/Stores/ProductStore.js" />
+        <option value="$PROJECT_DIR$/shopping_front/src/Product/SimpleProduct.js" />
+        <option value="$PROJECT_DIR$/shopping_front/src/Product/SimpleProduct.scss" />
+        <option value="$PROJECT_DIR$/shopping_front/src/Product/Product.scss" />
+        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/AttachmentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shopping_front/src/Stores/index.js" />
+        <option value="$PROJECT_DIR$/shopping_front/src/Login/index.js" />
+        <option value="$PROJECT_DIR$/shopping_front/src/Login/Login.scss" />
         <option value="$PROJECT_DIR$/shopping_front/src/Product/index.js" />
+        <option value="$PROJECT_DIR$/shopping_front/src/App.js" />
+        <option value="$PROJECT_DIR$/shopping_front/src/Cart/Cart.scss" />
+        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/CartService.java" />
+        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Controller/CartController.java" />
+        <option value="$PROJECT_DIR$/shopping_front/src/Stores/CartStore.js" />
+        <option value="$PROJECT_DIR$/shopping_front/src/Category/CategoryBar.js" />
         <option value="$PROJECT_DIR$/shopping_back/UserAPITest.http" />
+        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Repository/CartRepository.java" />
+        <option value="$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/CartServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shopping_front/src/Menu/index.js" />
+        <option value="$PROJECT_DIR$/shopping_front/src/Home/index.js" />
+        <option value="$PROJECT_DIR$/shopping_front/src/Cart/index.js" />
+        <option value="$PROJECT_DIR$/shopping_front/src/Category/index.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -224,6 +232,68 @@
             </path>
             <path>
               <item name="web_shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping_back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping_back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping_back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping_back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping_back" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping_back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping_back" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping_back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping_back" type="462c0819:PsiDirectoryNode" />
+              <item name="Domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping_back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping_back" type="462c0819:PsiDirectoryNode" />
+              <item name="Repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping_back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping_back" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_shopping" type="b2602c69:ProjectViewProjectNode" />
               <item name="shopping_front" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -235,7 +305,49 @@
               <item name="web_shopping" type="b2602c69:ProjectViewProjectNode" />
               <item name="shopping_front" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Products" type="462c0819:PsiDirectoryNode" />
+              <item name="Cart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping_front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Category" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping_front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping_front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Join" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping_front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping_front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Menu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping_front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping_front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Stores" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -253,10 +365,10 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561357548729" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561602573391" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web_react_02" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web_04" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -270,10 +382,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Other\Project\IntelliJ\web_shopping\shopping_front\src\Home" />
-      <recent name="D:\Other\Project\IntelliJ\web_shopping\shopping_front\src\Menu" />
+      <recent name="D:\Other\Project\IntelliJ\web_shopping\shopping_front\src\Cart" />
+      <recent name="D:\Other\Project\IntelliJ\web_shopping\shopping_front\src\Login" />
       <recent name="D:\Other\Project\IntelliJ\web_shopping\shopping_front\src\Stores" />
-      <recent name="D:\Other\Project\IntelliJ\web_shopping\shopping_front\src" />
+      <recent name="D:\Other\Project\IntelliJ\web_shopping\shopping_front\src\Product" />
+      <recent name="D:\Other\Project\IntelliJ\web_shopping\shopping_back\src\main\java\kr\hs\dgsw\shopping_back\Service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="kr.hs.dgsw.shopping_back.Controller" />
@@ -281,6 +394,9 @@
       <recent name="kr.hs.dgsw.shopping_back.Service" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Other\Project\IntelliJ\web_shopping\shopping_front\src\Category" />
+      <recent name="D:\Other\Project\IntelliJ\web_shopping\shopping_front\src\CategoryCategoryItem" />
+      <recent name="D:\Other\Project\IntelliJ\web_shopping\shopping_back\upload" />
       <recent name="D:\Other\Project\IntelliJ\web_shopping\shopping_front" />
       <recent name="D:\Other\Project\IntelliJ\web_shopping\shopping_front\src" />
     </key>
@@ -288,6 +404,36 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/api/cart/get/1" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/api/product/select/1" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="POST" />
           <option name="urlBase" value="http://localhost:8080/api/category/insert" />
@@ -475,17 +621,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="HTTP Request.UserAPITest#5">
-    <configuration name="UserAPITest#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/shopping_back/UserAPITest.http" index="2">
-      <method v="2" />
-    </configuration>
-    <configuration name="UserAPITest#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/shopping_back/UserAPITest.http" index="3">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="npm.start">
     <configuration name="UserAPITest#4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/shopping_back/UserAPITest.http" index="4">
       <method v="2" />
     </configuration>
     <configuration name="UserAPITest#5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/shopping_back/UserAPITest.http" index="5">
+      <method v="2" />
+    </configuration>
+    <configuration name="UserAPITest#6" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/shopping_back/UserAPITest.http" index="6">
+      <method v="2" />
+    </configuration>
+    <configuration name="UserAPITest#7" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/shopping_back/UserAPITest.http" index="7">
       <method v="2" />
     </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -510,11 +656,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.UserAPITest#5" />
         <item itemvalue="npm.start" />
+        <item itemvalue="HTTP Request.UserAPITest#7" />
+        <item itemvalue="HTTP Request.UserAPITest#6" />
+        <item itemvalue="HTTP Request.UserAPITest#5" />
         <item itemvalue="HTTP Request.UserAPITest#4" />
-        <item itemvalue="HTTP Request.UserAPITest#3" />
-        <item itemvalue="HTTP Request.UserAPITest#2" />
       </list>
     </recent_temporary>
   </component>
@@ -535,12 +681,15 @@
       <workItem from="1561185059252" duration="8232000" />
       <workItem from="1561197836244" duration="2631000" />
       <workItem from="1561336932180" duration="599000" />
-      <workItem from="1561340837416" duration="13970000" />
+      <workItem from="1561340837416" duration="14787000" />
+      <workItem from="1561423342145" duration="20455000" />
+      <workItem from="1561523421331" duration="8532000" />
+      <workItem from="1561593337097" duration="5693000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41670000" />
+    <option name="totallyTimeSpent" value="77167000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -555,7 +704,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.195629" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22121535" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -565,8 +714,8 @@
       <window_info id="npm" order="7" side_tool="true" />
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37093276" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37093276" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -576,7 +725,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.27440348" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.329718" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
@@ -598,78 +747,39 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Repository/CartRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Domain/Cart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="27" />
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="26" />
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="21" />
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/ProductService.java">
+    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/CartService.java">
+    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Controller/ProductController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Domain/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="30" column="34" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="30" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/ProductServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="156">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
           <folding>
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+            <element signature="e#994#995#0" expanded="true" />
+            <element signature="e#1088#1089#0" expanded="true" />
+            <element signature="e#1143#1144#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/CartServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/ShoppingBackApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="176">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/CommentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -680,28 +790,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/CommentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="31" column="51" lean-forward="true" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
-          <folding>
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-            <element signature="e#791#792#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/PurchaseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Domain/Purchase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -709,102 +797,255 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/PurchaseServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
-          <folding>
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-            <element signature="e#809#810#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="440">
+          <caret line="26" column="137" selection-start-line="26" selection-start-column="137" selection-end-line="26" selection-end-column="137" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/CategoryService.java">
+    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/CategoryServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        <state relative-caret-position="52">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-            <element signature="e#809#810#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Domain/Category.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_front/yarn-error.log" />
-    <entry file="file://$PROJECT_DIR$/shopping_front/shopping_front.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/ShoppingBackApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="242">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_front/package-lock.json">
+    <entry file="file://$PROJECT_DIR$/shopping_front/src/Stores/CategoryStore.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3168" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_front/src/App.css" />
-    <entry file="file://$PROJECT_DIR$/shopping_front/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        <state relative-caret-position="682">
+          <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_front/config-overrides.js">
+    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Protocol/CommentUserNameProtocol.java" />
+    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Domain/Product.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Configuration/CORS.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Domain/User.java">
+    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Protocol/AttachmentProtocol.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="132">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="308">
+          <caret line="39" column="138" selection-start-line="39" selection-start-column="138" selection-end-line="39" selection-end-column="138" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/AttachmentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_front/src/Home/Home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_front/src/Home/Category.js" />
+    <entry file="file://$PROJECT_DIR$/shopping_front/src/App.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_front/src/Product/SimpleProduct.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/AttachmentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Controller/AttachmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_front/src/Product/Product.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_front/src/Stores/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_front/src/Category/CategoryBar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_front/src/Stores/UserStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="35" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_front/src/Login/Login.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b7c5aa15-dd0e-458a-93cc-5d99fa855465/schema/web_shopping/table/cart">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_front/src/Join/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_front/src/Product/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_front/src/Category/CategoryBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="60" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_back/UserAPITest.http">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Controller/CartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding>
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/CartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/CategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding>
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Repository/CategoryRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Repository/CommentRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Repository/ProductRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Repository/PurchaseRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -815,122 +1056,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Domain/Cart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+        <state relative-caret-position="154">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Service/CartServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://b7c5aa15-dd0e-458a-93cc-5d99fa855465/schema/web_shopping/table/user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_front/src/Login/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" column="61" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_front/src/Join/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-572">
-          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Controller/CategoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#800#801#0" expanded="true" />
-            <element signature="e#862#863#0" expanded="true" />
-            <element signature="e#959#960#0" expanded="true" />
-            <element signature="e#1022#1023#0" expanded="true" />
-            <element signature="e#1279#1280#0" expanded="true" />
-            <element signature="e#1336#1337#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_front/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_front/src/Stores/index.js">
+    <entry file="file://$PROJECT_DIR$/shopping_front/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_front/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_front/src/Stores/CategoryStore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_front/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_front/src/Stores/UserStore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="59" column="33" lean-forward="true" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -939,73 +1086,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shopping_front/src/Menu/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="44" lean-forward="true" selection-start-line="2" selection-start-column="44" selection-end-line="4" selection-end-column="21" />
+        <state relative-caret-position="374">
+          <caret line="23" column="52" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_front/src/Menu/Menu.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_front/src/App.js">
+    <entry file="file://$PROJECT_DIR$/shopping_back/src/main/java/kr/hs/dgsw/shopping_back/Repository/CartRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_front/src/Home/Category.js">
+    <entry file="file://$PROJECT_DIR$/shopping_front/src/Stores/CartStore.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        <state relative-caret-position="134">
+          <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_front/src/Login/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="18" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_front/src/Stores/ProductStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping_front/src/Cart/Cart.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shopping_front/src/Home/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        <state relative-caret-position="308">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_front/src/App.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_front/src/Home/Home.scss">
+    <entry file="file://$PROJECT_DIR$/shopping_front/src/Cart/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        <state relative-caret-position="398">
+          <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_front/src/Products/index.js">
+    <entry file="file://$PROJECT_DIR$/shopping_front/src/Product/SimpleProduct.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="44">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_front/src/Product/rcc.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_front/src/Home/Category.scss">
+    <entry file="file://$PROJECT_DIR$/shopping_front/src/Category/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_front/src/Product/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping_back/UserAPITest.http">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        <state relative-caret-position="88">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
