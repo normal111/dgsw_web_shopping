@@ -1,16 +1,28 @@
 .menu-bar {
-  height: 20px;
-  margin: 0;
+  height: 3vh;
+  left: 0;
+  right: 0;
+  padding-left: 2vw;
+  background-color: black;
+  display: flex;
+  align-items: center;
 }
 
 .menu-item {
-  list-style-type: none;
-  display: inline; /* 세로나열을 가로나열로 변경 */
-  border-left: 1px solid #999; /* 각 메뉴의 왼쪽에 "|" 표시(분류 표시) */
-  font: bold 12px Dotum; /* 폰트 설정 - 12px의 돋움체 굵은 글씨로 표시 */
-  padding: 0 10px; /* 각 메뉴 간격 */
+  display: inline;
+  font-size: 2vh;
+  margin-right: 5vw;
+  color: #FFFFFF;
 }
 
-.menu-item:first-child {
-  border-left: none;
+.login-container {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.53);
 }

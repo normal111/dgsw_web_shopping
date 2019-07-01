@@ -8,8 +8,8 @@ import './App.scss';
 import Join from "./Join";
 import Cart from "./Cart";
 import Product from "./Product";
-import CategoryBar from "./Category/CategoryBar";
 import Category from "./Category";
+import CategoryBar from "./Category/CategoryBar";
 import Login from "./Login";
 
 import Stores from './Stores';
@@ -19,7 +19,8 @@ function App() {
         <Provider stores={Stores}>
             <BrowserRouter>
                 <header className='app-header'>
-                    <Menu chilName='menu'/>
+                    <Menu className='menu'/>
+                    <div className='site-name'>DGSW Fashion</div>
                     <CategoryBar/>
                 </header>
 

@@ -4,33 +4,43 @@ import {inject, observer} from "mobx-react";
 
 import './Menu.scss';
 
+import Login from '../Login';
+
 @inject('stores')
 @observer
 class Menu extends Component {
     render() {
         if (this.props.stores.UserStore.current_user == null) {
             return (
-                <ul className='menu-bar'>
-                    <li className='menu-item' ><Link to="/">Home</Link></li>
-                    <li className='menu-item' ><Link to="/login">로그인</Link></li>
-                    <li className='menu-item' ><Link to="/join">회원가입</Link></li>
-                </ul>
+                <div className='menu-bar'>
+                    <Link className='menu-item' to="/">Home</Link>
+                    <div className='menu-item cursor-pointer' onClick={this.login_on}>Login</div>
+                    <Link className='menu-item' to="/join">Join</Link>
+                    <div id='login-container' className='login-container'>
+                        <Login />
+                    </div>
+                </div>
             );
         } else {
             return (
-                <ul className='menu-bar'>
-                    <li className='menu-item' ><Link to="/">Home</Link></li>
-                    <li className='menu-item' ><Link to="/cart">장바구니</Link></li>
-                    <li className='menu-item' ><span onClick={this.logout}>로그아웃</span></li>
-                </ul>
+                <div className='menu-bar'>
+                    <Link className='menu-item' to="/">Home</Link>
+                    <Link className='menu-item' to="/cart">Cart</Link>
+                    <div className='menu-item cursor-pointer' onClick={this.logout}>Logout</div>
+                </div>
             );
         }
     }
 
+    login_on = ()=> {
+        let login = document.getElementById('login-container');
+        login.style.display = 'flex';
+    };
+
     logout = () => {
         this.props.stores.UserStore.logout();
         alert("로그아웃");
-    }
+    };
 }
 
 // <div>

@@ -37,7 +37,6 @@ public class AttachmentServiceImpl implements AttachmentService {
             return new AttachmentProtocol(destFilePath, srcFile.getOriginalFilename());
 
         } catch (Exception e) {
-            System.out.println("에러" + e);
             return null;
         }
     }
@@ -69,7 +68,6 @@ public class AttachmentServiceImpl implements AttachmentService {
             InputStream is = new BufferedInputStream(new FileInputStream(file));
             FileCopyUtils.copy(is, response.getOutputStream());
         } catch (Exception e) {
-            System.out.println(e.getMessage());
         }
     }
 }

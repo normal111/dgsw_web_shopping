@@ -9,6 +9,8 @@ public interface CommentService {
 
     Comment selectComment(Long id);
 
+    List<Comment> selectProduct(Long product_id);
+
     Comment insetComment(Comment comment);
 
     Comment updateComment(Comment comment);

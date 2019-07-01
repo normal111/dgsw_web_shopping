@@ -26,12 +26,13 @@ public class CartServiceImpl implements CartService {
 
     @Override
     public List<Cart> getCart(String user_id) {
-        List<Cart> carts = new ArrayList<>();
-        for (Cart cart : selectCart()) {
-            if (cart.getUser_id().equals(user_id))
-                carts.add(cart);
+        List<Cart> return_carts = new ArrayList<>();
+        List<Cart> select_carts = selectCart();
+        for (int i = 0; i < select_carts.size(); i++) {
+            if (select_carts.get(i).getUser_id().equals(user_id))
+                return_carts.add(select_carts.get(i));
         }
-        return carts;
+        return return_carts;
     }
 
     @Override
@@ -55,6 +56,22 @@ public class CartServiceImpl implements CartService {
     public boolean deleteCart(Long id) {
         try {
             cartRepository.deleteById(id);
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
+    }
+
+    @Override
+    public boolean paymentAllCart(String user_id) {
+        try {
+            List<Cart> select_carts = selectCart();
+            for (int i = 0; i < select_carts.size(); i++) {
+                if (select_carts.get(i).getUser_id().equals(user_id)) {
+                    //TODO: 여기서 카트->결제로
+                    deleteCart(select_carts.get(i).getId());
+                }
+            }
             return true;
         } catch (Exception e) {
             return false;

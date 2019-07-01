@@ -19,6 +19,7 @@ public class Comment {
     private Long id;
     private Long product_id;
     private String user_id;
+    private String content;
     @CreationTimestamp
     private LocalDateTime created;
 }

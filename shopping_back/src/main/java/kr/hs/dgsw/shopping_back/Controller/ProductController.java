@@ -24,6 +24,11 @@ public class ProductController {
         return productService.selectProduct(id);
     }
 
+    @GetMapping("/selectCategory/{category_id}")
+    public List<Product> selectCategory(@PathVariable Long category_id) {
+        return productService.selectCategory(category_id);
+    }
+
     @PostMapping("/insert")
     public Product selectProduct(@RequestBody Product product) {
         return productService.insetProduct(product);

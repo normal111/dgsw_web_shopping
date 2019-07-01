@@ -37,6 +37,25 @@ class ProductStore {
         }
     };
 
+    @action getCategoryProduct = async (category_id) => {
+        try {
+            let response = await axios({
+                url: `http://localhost:8080/api/product/selectCategory/${category_id}`,
+                headers: {
+                    'Content-Type': 'application/json; charset=UTF-8'
+                },
+                method: 'get',
+                timeout: 3000
+            });
+
+            if (response.status === 200) {
+                return response.data;
+            }
+        } catch (ex) {
+            return null;
+        }
+    };
+
     @action setProduct = async (product_id) => {
         try {
             let response = await axios({

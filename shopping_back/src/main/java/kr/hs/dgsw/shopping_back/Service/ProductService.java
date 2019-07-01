@@ -9,6 +9,8 @@ public interface ProductService {
 
     Product selectProduct(Long id);
 
+    List<Product> selectCategory(Long category_id);
+
     Product insetProduct(Product product);
 
     Product updateProduct(Product product);

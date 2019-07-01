@@ -1,11 +1,42 @@
-$menu-bar-height: 10vh;
-
 .cart-container {
-  position: absolute;
-  top: $menu-bar-height;
-  bottom: 0;
   left: 0;
   right: 0;
-  background-color: lightgreen;
   text-align: center;
+  margin-top: 3vh;
+}
+
+.cart-text {
+  left: 0;
+  right: 0;
+  font-size: 4vw;
+  border-bottom: 1px solid black;
+  font-weight: bold;
+}
+
+.cart-item-header {
+  margin-left: 20vw;
+  width: 60vw;
+  display: flex;
+  background-color: lightgray;
+  border: 1px solid black;
+}
+
+.cart-item-name {
+  flex: 3;
+  overflow: hidden;
+}
+
+.cart-item-price {
+  flex: 1;
+}
+
+.cart-item-count {
+  flex: 1;
+}
+
+.cart-item-total {
+  flex: 1;
+}
+.cart-item-delete {
+  flex: 1;
 }

@@ -5,6 +5,7 @@ import kr.hs.dgsw.shopping_back.Repository.CommentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -21,6 +22,18 @@ public class CommentServiceImpl implements CommentService {
     @Override
     public Comment selectComment(Long id) {
         return commentRepository.findById(id).orElse(null);
+    }
+
+    @Override
+    public List<Comment> selectProduct(Long product_id) {
+        List<Comment> comments = new ArrayList<>();
+        List<Comment> selectComments = selectComment();
+        for (Comment comment : selectComments) {
+            if (comment.getProduct_id().equals(product_id)) {
+                comments.add(comment);
+            }
+        }
+        return comments;
     }
 
     @Override

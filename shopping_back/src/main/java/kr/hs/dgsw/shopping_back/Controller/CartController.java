@@ -44,4 +44,8 @@ public class CartController {
         return cartService.deleteCart(id);
     }
 
+    @DeleteMapping("/paymentAll/{user_id}")
+    public Boolean paymentAllCart(@PathVariable String user_id) {
+        return cartService.paymentAllCart(user_id);
+    }
 }

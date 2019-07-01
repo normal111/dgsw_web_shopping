@@ -54,6 +54,41 @@ class CartStore {
         }
     };
 
+    @action deleteCart = async (cart_id) => {
+        try {
+            let response = await axios({
+                url: `http://localhost:8080/api/cart/delete/${cart_id}`,
+                headers: {
+                    'Content-Type': 'application/json; charset=UTF-8'
+                },
+                method: 'delete',
+                timeout: 3000
+            });
+            if (response.status === 200) {
+                return true;
+            }
+        } catch (ex) {
+            return false;
+        }
+    };
+
+    @action paymentAllCart = async (user_id) => {
+        try {
+            let response = await axios({
+                url: `http://localhost:8080/api/cart/paymentAll/${user_id}`,
+                headers: {
+                    'Content-Type': 'application/json; charset=UTF-8'
+                },
+                method: 'delete',
+                timeout: 3000
+            });
+            if (response.status === 200) {
+                return true;
+            }
+        } catch (ex) {
+            return false;
+        }
+    };
 }
 
 export default CartStore.getInstance();

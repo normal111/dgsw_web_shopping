@@ -1,43 +1,24 @@
-$home-height: 30vh;
-$left-aside-width: 25vw;
-$right-aside-width: 25vw;
-
 .home-main {
-  position: absolute;
-  top: 10vh;
-  height: 20vh;
+  height: 50vh;
   left: 0;
   right: 0;
-  background-color: lightyellow;
+  background-color: #FFFFFF;
 }
 
-.home-left-aside {
-  position: absolute;
-  top: $home-height;
-  bottom: 0;
+.home-event-text {
   left: 0;
-  width: $left-aside-width;
-  background-color: mistyrose;
-  overflow: auto;
-
-}
-
-.home-right-aside {
-  position: absolute;
-  top: $home-height;
-  bottom: 0;
   right: 0;
-  width: $right-aside-width;
-  background-color: pink;
-  overflow: auto;
+  padding-left: 2vw;
+  height: 4vh;
+  color: white;
+  background: #0a6b73;
+  font-size: 3vh;
 }
 
-.home-section {
-  position: absolute;
-  top: $home-height;
-  bottom: 0;
-  left: $left-aside-width;
-  right: $right-aside-width;
-  background-color: lightgreen;
-  overflow: auto;
+.home-items{
+  padding-left: 3vw;
+}
+
+.home-items>div{
+  margin-right: 3vw;
 }

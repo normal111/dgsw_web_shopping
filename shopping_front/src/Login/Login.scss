@@ -1,11 +1,5 @@
-$menu-bar-height: 10vh;
-
-.login-container {
-  position: absolute;
-  top: $menu-bar-height;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: lightgreen;
+.login-form {
   text-align: center;
+  background-color: white;
+  padding: 0 30px;
 }

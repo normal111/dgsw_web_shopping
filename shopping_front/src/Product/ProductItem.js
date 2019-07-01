@@ -2,23 +2,17 @@ import React, {Component} from 'react';
 import {inject, observer} from "mobx-react";
 import {Link} from 'react-router-dom';
 
-import './SimpleProduct.scss'
+import './ProductItem.scss'
 
 @inject('stores')
 @observer
-class SimpleProduct extends Component {
+class ProductItem extends Component {
     state = {
         id: null,
         name: null,
         price: null,
         image: null,
-        company: null,
-        category_id: null,
-        sub_category: null,
-        mileage: null,
-        content: null,
-        detail: null,
-        pur_info: null
+        content: null
     };
 
     async componentDidMount() {
@@ -30,13 +24,7 @@ class SimpleProduct extends Component {
                 name: product.name,
                 price: product.price,
                 image: product.image,
-                company: product.company,
-                category_id: product.category_id,
-                sub_category: product.sub_category,
-                mileage: product.mileage,
-                content: product.content,
-                detail: product.detail,
-                pur_info: product.pur_info
+                content: product.content
             });
         }
     }
@@ -48,15 +36,24 @@ class SimpleProduct extends Component {
         let productLink = `/product/${this.state.id}`;
         let imageSrc = `http://localhost:8080/download/product/${this.state.id}`;
         return (
-            <div className='sim-product-item'>
+            <div className='product-item-container'>
                 <Link to={productLink}>
-                    <img  className='sim-product-image' src={imageSrc} alt="제품이미지"/>
-                    <div className='sim-product-name'>{this.state.name}</div>
-                    <div className='sim-product-price'>{this.state.price}</div>
+
+                    <div className='product-item-image-container'>
+                        <img  className='product-item-image' src={imageSrc} alt="제품이미지"/>
+                    </div>
+
+                    <div className='product-item-info-container'>
+                        <div className='product-item-name'>{this.state.name}</div>
+                        <div className='product-item-content'>{this.state.content}</div>
+                    </div>
+                    <div className='product-item-price-container'>
+                        <div className='product-item-price'>₩{this.state.price}</div>
+                    </div>
                 </Link>
             </div>
         );
     }
 }
 
-export default SimpleProduct;
+export default ProductItem;

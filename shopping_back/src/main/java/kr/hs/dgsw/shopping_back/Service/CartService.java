@@ -16,4 +16,6 @@ public interface CartService {
     Cart updateCart(Cart cart);
 
     boolean deleteCart(Long id);
+
+    boolean paymentAllCart(String user_id);
 }

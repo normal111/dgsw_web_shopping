@@ -1,25 +1,22 @@
-.category-bar {
-  position: absolute;
-  top: 3vh;
-  right: 0;
+.category-bar-container {
+  background: #0a6b73;
   left: 0;
-  height: 7vh;
-  margin: 0;
-  background: skyblue;
+  right: 0;
+  padding-left: 2vw;
+  height: 4vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.category-bar {
+  display: inline-block;
 }
 
 .category-item {
   list-style-type: none;
   display: inline-block; /* 세로나열을 가로나열로 변경 */
-  padding: 0 3vw; /* 각 메뉴 간격 */
-  font-size: 2vw;
-}
-
-.category-item a {
-  color: #000;
-  text-decoration: none;
-}
-
-.category-item a:hover {
-  background-color: deepskyblue;
+  padding-right: 5vw; /* 각 메뉴 간격 */
+  font-size: 2vmin;
+  color: #FFFFFF;
 }

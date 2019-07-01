@@ -20,16 +20,16 @@ class CategoryBar extends Component {
 
     render() {
         return (
-            <div>
-                <ul className='category-bar'>
+            <div className='category-bar-container'>
+                <div className='category-bar'>
                     {
                         this.state.category.map(item => {
                                 let link = `/category/${item.id}`;
-                                return (<li className='category-item' key={item.id}><Link to={link}>{item.name}</Link></li>)
+                                return (<Link className='category-item' to={link} key={item.id}>{item.name}</Link>)
                             }
                         )
                     }
-                </ul>
+                </div>
             </div>
         );
     }

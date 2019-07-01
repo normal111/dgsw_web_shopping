@@ -5,6 +5,7 @@ import kr.hs.dgsw.shopping_back.Repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -21,6 +22,16 @@ public class ProductServiceImpl implements ProductService {
     @Override
     public Product selectProduct(Long id) {
         return productRepository.findById(id).orElse(null);
+    }
+
+    @Override
+    public List<Product> selectCategory(Long category_id) {
+        List<Product> products = new ArrayList<>();
+        for (Product product : selectProduct()) {
+            if (product.getCategory_id() == category_id)
+                products.add(product);
+        }
+        return products;
     }
 
     @Override

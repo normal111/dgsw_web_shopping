@@ -1,17 +1,16 @@
 import React, {Component} from 'react';
 import {inject, observer} from "mobx-react";
-import {Redirect} from "react-router-dom";
 
 import './Cart.scss'
 
-import SimpleProduct from "../Product/SimpleProduct";
+import CartItem from "./CartItem";
 
 @inject('stores')
 @observer
 class Cart extends Component {
     state = {
-        cart: [],
-        goToMain: false
+        user_id: null,
+        cart: []
     };
 
     async componentDidMount() {
@@ -19,6 +18,7 @@ class Cart extends Component {
             let user_id = this.props.stores.UserStore.current_user.id;
             await this.props.stores.CartStore.getCart(user_id);
             this.setState({
+                user_id: user_id,
                 cart: this.props.stores.CartStore.current_cart
             });
         } else {
@@ -30,30 +30,42 @@ class Cart extends Component {
     }
 
     render() {
-        if (this.state.goToMain)
-            return <Redirect to='/'/>;
-
-        let sum = 0;
-
         return (
             <div className='cart-container'>
-                <ul>
+                <div className='cart-text'>
+                    장바구니
+                </div>
+                <br/>
+                <div className='cart-item-header'>
+                    <div className='cart-item-name'>이름</div>
+                    <div className='cart-item-price'>가격</div>
+                    <div className='cart-item-count'>개수</div>
+                    <div className='cart-item-total'>총</div>
+                    <div className='cart-item-delete'>삭제</div>
+                </div>
+                <div className='cart-item-body'>
                     {
                         this.state.cart.map(item => {
-                                // sum += parseInt(item.price) * parseInt(item.count);
-                                return (<li className='cart-item' key={item.id}>
-                                    <SimpleProduct product_id={item.product_id}/>
-                                    * {item.count}개</li>)
+                                return (<CartItem key={item.id} cart_id={item.id} product_id={item.product_id}
+                                                  count={item.count}></CartItem>)
                             }
                         )
                     }
-                </ul>
+                </div>
 
                 <div>
-                    {sum}
+                    <button onClick={this.paymentCartAll}>모두 결제하기</button>
                 </div>
             </div>
         );
+    }
+
+    paymentCartAll = async () => {
+        await this.props.stores.CartStore.paymentAllCart((this.state.user_id));
+        alert("결제완료!");
+        this.setState({
+            cart: []
+        });
     }
 }
 
